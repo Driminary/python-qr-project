@@ -15,10 +15,12 @@
 # Python QR Code Project #
 ##########################
 
+import qrcode
 import zbar
 import Image
 
-if len(argv) < 2: exit(1)
+# image to import
+f = qrcode.make("Hello")
 
 # create a reader
 scanner = zbar.ImageScanner()
@@ -27,7 +29,7 @@ scanner = zbar.ImageScanner()
 scanner.parse_config('enable')
 
 # obtain image data
-pil = Image.open(argv[1]).convert('L')
+pil = Image.open(f.convert('L'))
 width, height = pil.size
 raw = pil.tostring()
 
