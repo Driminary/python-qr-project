@@ -19,11 +19,14 @@ import qrcode
 import zbar
 import Image
 
-# create qr code
-f = qrcode.make("Hello")
+# get user input
+inp = raw_input("Please type what you would like encoding: ")
+
+# create qr code from user input
+f = qrcode.make(str(inp))
 
 # save image
-f.save("f.png")
+f.save("code.png")
 
 # create a reader
 scanner = zbar.ImageScanner()
@@ -32,7 +35,7 @@ scanner = zbar.ImageScanner()
 scanner.parse_config('enable')
 
 # obtain image data
-pil = Image.open("f.png").convert('L')
+pil = Image.open("code.png").convert('L')
 width, height = pil.size
 raw = pil.tostring()
 
