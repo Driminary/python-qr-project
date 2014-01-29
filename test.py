@@ -19,8 +19,11 @@ import qrcode
 import zbar
 import Image
 
-# image to import
+# create qr code
 f = qrcode.make("Hello")
+
+# save image
+f.save("f.png")
 
 # create a reader
 scanner = zbar.ImageScanner()
@@ -29,7 +32,7 @@ scanner = zbar.ImageScanner()
 scanner.parse_config('enable')
 
 # obtain image data
-pil = Image.open(f.convert('L'))
+pil = Image.open("f.png").convert('L')
 width, height = pil.size
 raw = pil.tostring()
 
@@ -42,7 +45,7 @@ scanner.scan(image)
 # extract results
 for symbol in image:
     # do something useful with results
-    print 'decoded', symbol.type, 'symbol', '"%s"' % symbol.data
+    print 'Image was a ', symbol.type, ', and contained the following message: \n', symbol.data
 
 # clean up
 del(image)
