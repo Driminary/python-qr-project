@@ -140,6 +140,35 @@ def compare(image_1,image_2):
     # Return the difference
     return percentdiff
     
+# Define addblur()
+def addblur(radius, image):
+    
+    """
+    
+    Image Blurring Function
+    =======================
+
+    Adds a gaussian blur to an image, given a specified radius. Returns the new image with the blur applied.
+    
+    Arguments:
+    ----------
+    
+    radius  - The radius of the gaussian blur applied
+    image   - The image file the blur is to be applied to
+    
+    Returns:
+    --------
+    
+    Nothing
+    (An image file is saved with the original name appended with '_blurred' instead)
+    
+    Usage:
+    ------
+    
+    addblur(10,"image.png") - Adds a blur to an image and saves it as image_blurred.png
+    
+    """
+    
 #################
 # End Functions #
 #################
