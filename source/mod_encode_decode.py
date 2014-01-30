@@ -22,14 +22,14 @@
 """
 
 ===========
-Version 1.0
+Version 1.1
 ===========
  Released:
 30/01/2014
 ===========
 
 ==================================================================================================
-Requires: qrcode 4.0.4, zbar 0.10, Python Image Library (PIL) 1.1.7 [Supplied for windows systems]
+Requires: qrcode 4.0.4, zbar 0.10, Pillow 2.3.0 [Supplied for windows systems]
 ==================================================================================================
 
 A module to generate a QR code from a user inputted string, as well as decode a given image file to
@@ -57,8 +57,8 @@ mod_encode_decode.decode("code.png")
 ============== Copy above this line
 
 Remeber that due to the licensing this file is released under (MIT License), all usage must include
-credit to the original owner (myself) and so you must include line 39 if you import or it will be an
-infringement of copyright.
+credit to the original owner (myself) and so you must include the first line if you import or it 
+will be an infringement of copyright.
 
 Source files can be found on https://github.com/Driminary/python-qr-project
 
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 # Import required modules
 import qrcode
 import zbar
-import Image
+from PIL import Image
 
 ###################
 # Begin Functions #
@@ -216,7 +216,7 @@ def decode(image_file):
     
     # Set the reader configuration to default
     scanner.parse_config('enable')
-    
+        
     # Read the image file and convert it into greyscale data readable by zbar
     try:
         pil = Image.open(image_file).convert('L')
@@ -224,6 +224,7 @@ def decode(image_file):
         # Image file is not an image
         print "Sorry, the file provided was not an image."
         raise TypeError
+        
     width, height = pil.size # Extract image size
     raw = pil.tostring() # Convert image to a string of data
     
