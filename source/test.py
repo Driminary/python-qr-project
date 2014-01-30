@@ -23,3 +23,6 @@ import mod_encode_decode as qr_ed # My encoding-decoding module
 
 # Run encoding module
 qr_ed.encode("Random Message","code")
+
+# Run decoding module
+qr_ed.decode("code.png")

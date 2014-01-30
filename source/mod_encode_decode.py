@@ -6,10 +6,10 @@
 ########################
 # Thomas Anderson #
 ###################
-#    29/01/2014   #
+#    30/01/2014   #
 ###################
 #  Last updated:  #
-#    29/01/2014   #
+#    30/01/2014   #
 ###################
 
 ##########################
@@ -21,12 +21,46 @@
 
 """
 
-A module to generate a QR code from a user inputted string, as well as decode a given image file to determine
-if it is a QR code and what the message is.
+===========
+Version 1.0
+===========
+ Released:
+30/01/2014
+===========
 
-Requires: qrcode, zbar, Python Image Library (PIL)
+==================================================================================================
+Requires: qrcode 4.0.4, zbar 0.10, Python Image Library (PIL) 1.1.7 [Supplied for windows systems]
+==================================================================================================
 
-In this directory is a .zip file containing the win32 binaries for PIL and zbar and the source files for qrcode.
+A module to generate a QR code from a user inputted string, as well as decode a given image file to
+determine if it is a QR code and what the message is.
+
+In this directory is a .zip file containing the win32 binaries for PIL and zbar and the source files
+for qrcode.
+
+For usage of each function, please refer to the DOCSTRING.
+
+To embed this module in your code and for a simple encoding and decoding example, place the module
+file (mod_encode_decode.py) in the same directory as your code and include the following:
+
+============== Copy below this line
+
+# Thomas Anderson's (py12tja) Encoding Decoding Module
+import mod_encode_decode
+
+# Run encoding module
+mod_encode_decode.encode("Random Message","code")
+
+# Run decoding module
+mod_encode_decode.decode("code.png")
+
+============== Copy above this line
+
+Remeber that due to the licensing this file is released under (MIT License), all usage must include
+credit to the original owner (myself) and so you must include line 39 if you import or it will be an
+infringement of copyright.
+
+Source files can be found on https://github.com/Driminary/python-qr-project
 
 """
 
@@ -36,7 +70,7 @@ In this directory is a .zip file containing the win32 binaries for PIL and zbar 
 
 # If module is being run on its own, not imported as a module, exit gracefully.
 if __name__ == '__main__':
-    print "Please import the module rather than run it standalone."
+    print "Please import the module rather than run it standalone. (See file for details)"
     raise RuntimeError
     
 # Import required modules
@@ -72,6 +106,13 @@ def encode(raw_message,image_name,size=1,error=2): # Set default image size to 1
     
     Nothing
     (An image file with name image_name.png is created with the encoded message)
+    
+    Usage: 
+    ------
+    
+    encode("Random Message","code") - Generates a QR code with message "Random Message" and
+                                      puts it in 'code.png'. Uses default size (1) and error 
+                                      redundancy (15%).
     
     """
     
@@ -136,30 +177,81 @@ def encode(raw_message,image_name,size=1,error=2): # Set default image size to 1
     
     return
     
-#    # create a reader
-#    scanner = zbar.ImageScanner()
-#    
-#    # configure the reader
-#    scanner.parse_config('enable')
-#    
-#    # obtain image data
-#    pil = Image.open("code.png").convert('L')
-#    width, height = pil.size
-#    raw = pil.tostring()
-#    
-#    # wrap image data
-#    image = zbar.Image(width, height, 'Y800', raw)
-#    
-#    # scan the image for barcodes
-#    scanner.scan(image)
-#    
-#    # extract results
-#    for symbol in image:
-#        # do something useful with results
-#        print 'Image was a ', symbol.type, ', and contained the following message: \n', symbol.data
-#    
-#    # clean up
-#    del(image)
+# Define decode()
+def decode(image_file):
+    
+    """
+    
+    QR Decoding Function
+    ====================
+    
+    Reads a specfied image file and scans through the data to check if it is a QR code.
+    If it is found and successfully decoded it will display the message. If unsuccessful it will print
+    an error message saying the image was not a QR code or was too degraded.
+    
+    Note: Code was majority adapted from the qrcode website.
+    
+    Arguments:
+    ----------
+    
+    image_file  - The image file to be scanned [MUST be a valid image file]
+    
+    Returns:
+    --------
+    
+    message     - The message encoded in the QR code (If the decode is a success, returns nothing if not)
+    
+    Usage: 
+    ------
+    
+    decode("code.png") - Checks the image file "code.png" for a QR code and displays the results.
+    
+    """
+    
+    # Set message
+    message = ""
+    
+    # Create a zbar image reader
+    scanner = zbar.ImageScanner()
+    
+    # Set the reader configuration to default
+    scanner.parse_config('enable')
+    
+    # Read the image file and convert it into greyscale data readable by zbar
+    try:
+        pil = Image.open(image_file).convert('L')
+    except:
+        # Image file is not an image
+        print "Sorry, the file provided was not an image."
+        raise TypeError
+    width, height = pil.size # Extract image size
+    raw = pil.tostring() # Convert image to a string of data
+    
+    # Put the image data in a container with the size and data together
+    image = zbar.Image(width, height, 'Y800', raw)
+    
+    # Use zbar to scan the data for a QR code
+    scanner.scan(image)
+    
+    # Scan through results
+    for symbol in image:      
+        
+        # Check image is actually a QR code
+        if str(symbol.type) == "QRCODE":
+            # Print a success message
+            print 'Image was a ', symbol.type, ', and contained the following message: \n', symbol.data
+            # Set the message variable
+            message = symbol.data
+            # Exit
+            return message
+    
+    # If results do not contain a zbar symbol (unsuccessful read)        
+    else:
+        # QR code not found
+        print "Sorry, the image was either not a QR code or the code was degraded too much to read."        
+        # Exit function            
+        return
+
     
 #################
 # End Functions #
