@@ -9,7 +9,7 @@
 #    30/01/2014   #
 ###################
 #  Last updated:  #
-#    30/01/2014   #
+#    12/02/2014   #
 ###################
 
 ##########################
@@ -57,6 +57,9 @@ import mod_imgtools
 # Run compare function
 print qr_imgtools.compare("calibration_purewhite.png","calibration_25percent.png")
 
+# Run addblur function
+qr_imgtools.addblur(10,"image.png")
+
 ============== Copy above this line
 
 Remeber that due to the licensing this file is released under (MIT License), all usage must include
@@ -78,7 +81,7 @@ if __name__ == '__main__':
     
 # Import required modules
 from itertools import izip
-from PIL import Image
+from PIL import Image, ImageFilter
 
 ###################
 # Begin Functions #
@@ -140,6 +143,54 @@ def compare(image_1,image_2):
     # Return the difference
     return percentdiff
     
+# Define addblur()
+def addblur(radius, image):
+    
+    """
+    
+    Image Blurring Function
+    =======================
+
+    Adds a gaussian blur to an image, given a specified radius. Returns the new image with the blur applied.
+    
+    Arguments:
+    ----------
+    
+    radius  - The radius of the gaussian blur applied
+    image   - The image file the blur is to be applied to
+    
+    Returns:
+    --------
+    
+    Nothing
+    (An image file is saved with the original name appended with '_blurred' instead)
+    
+    Usage:
+    ------
+    
+    addblur(10,"image.png") - Adds a blur to an image and saves it as image_blurred.png
+    
+    """
+    
+    # Open image and covert to greyscale
+    try:
+        img = Image.open(image).convert('L')
+    except:
+        # Image file is not an image
+        print "Sorry, the file provided was not an image."
+        raise TypeError           
+    
+    # Blur the image with the given radius        
+    blurimg = img.filter(ImageFilter.GaussianBlur(radius))
+    
+    # Strip the image filename of it's extension    
+    name = str(image).split(".")
+    
+    # Save the image into new file with _blurred appended to name
+    blurimg.save("{0}_blurred.png".format(name[0],radius))
+    
+    return
+        
 #################
 # End Functions #
 #################

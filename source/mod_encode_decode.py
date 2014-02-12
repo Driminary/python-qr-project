@@ -9,7 +9,7 @@
 #    30/01/2014   #
 ###################
 #  Last updated:  #
-#    30/01/2014   #
+#    12/02/2014   #
 ###################
 
 ##########################
@@ -22,10 +22,10 @@
 """
 
 ===========
-Version 1.1
+Version 1.2
 ===========
  Released:
-30/01/2014
+12/02/2014
 ===========
 
 ==================================================================================================
@@ -171,10 +171,7 @@ def encode(raw_message,image_name,size=1,error=2): # Set default image size to 1
     
     # Save image
     f.save("%s.png" % image_name)
-    
-    # Print a success message
-    print "File outputted to %s.png" % image_name
-    
+        
     return
     
 # Define decode()
@@ -199,7 +196,7 @@ def decode(image_file):
     Returns:
     --------
     
-    message     - The message encoded in the QR code (If the decode is a success, returns nothing if not)
+    message     - Either "Success (MESSAGE)" or "Fail", where message is the message encoded.
     
     Usage: 
     ------
@@ -239,19 +236,17 @@ def decode(image_file):
         
         # Check image is actually a QR code
         if str(symbol.type) == "QRCODE":
-            # Print a success message
-            print 'Image was a ', symbol.type, ', and contained the following message: \n', symbol.data
-            # Set the message variable
-            message = symbol.data
+            # Set message to success and include the encoded message
+            message = "Success ({0})".format(symbol.data)
             # Exit
             return message
     
     # If results do not contain a zbar symbol (unsuccessful read)        
     else:
-        # QR code not found
-        print "Sorry, the image was either not a QR code or the code was degraded too much to read."        
-        # Exit function            
-        return
+        # Set message to fail
+        message = "Fail"     
+        # Exit
+        return message
 
     
 #################

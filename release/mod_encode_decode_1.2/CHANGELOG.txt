@@ -1,0 +1,24 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+30/01/2014
+Version 1.1
+===========
+
+- [Major] Changed dependancy from PIL 1.1.7 to Pillow 2.3.0
+
+- [Minor] Edited the docstring (previously referred to line 39 - now says "first line")
+- [Minor] Uncommented a block I forgot when replacing PIL to Pillow
+
+=> Thomas Anderson
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+12/02/2014
+Version 1.2
+===========
+
+- [Major] Tweaked outputs to remove so much printing to make it easier to impliment in main
+	  code.
+- [Minor] Changed Success and Fail messages to be simpler
+
+=> Thomas Anderson
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
