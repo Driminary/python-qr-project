@@ -1,0 +1,68 @@
+
+================
+The message encoded this run is:  grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H 
+================
+Blur Radius = 10
+================
+Max Size = 10
+================
+
+================
+Error Setting = 1
+================
+
+The reading of image size  1 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  2 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  3 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  4 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  5 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  6 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  7 was a  Fail
+The reading of image size  8 was a  Fail
+The reading of image size  9 was a  Fail
+The reading of image size  10 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+
+================
+Error Setting = 2
+================
+
+The reading of image size  1 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  2 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  3 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  4 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  5 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  6 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  7 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  8 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  9 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  10 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+
+================
+Error Setting = 3
+================
+
+The reading of image size  1 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  2 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  3 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  4 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  5 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  6 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  7 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  8 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  9 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  10 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+
+================
+Error Setting = 4
+================
+
+The reading of image size  1 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  2 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  3 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  4 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  5 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  6 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  7 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  8 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  9 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
+The reading of image size  10 was a  Success (grtzthhZ58M2uMT8sf2xBvwaoBkKHa9H)
