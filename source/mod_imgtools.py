@@ -187,7 +187,7 @@ def addblur(radius, image):
     name = str(image).split(".")
     
     # Save the image into new file with _blurred appended to name
-    blurimg.save("{0}_blurred.png".format(name[0],radius))
+    blurimg.save(".{0}_blurred.png".format(name[1],radius))
     
     return
         

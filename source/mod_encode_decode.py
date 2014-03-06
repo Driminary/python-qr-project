@@ -170,7 +170,7 @@ def encode(raw_message,image_name,size=1,error=2): # Set default image size to 1
     f = qr.make_image()
     
     # Save image
-    f.save("%s.png" % image_name)
+    f.save("./images/%s.png" % image_name)
         
     return
     
