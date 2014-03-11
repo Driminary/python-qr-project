@@ -2,7 +2,7 @@
 Version 1.0
 ===========
  Released:
-00/00/0000
+11/03/2014
 ===========
 
 =====
@@ -45,6 +45,9 @@ import mod_imgtools
 
 # Run compare function
 print qr_imgtools.compare("calibration_purewhite.png","calibration_25percent.png")
+
+# Run addblur function
+qr_imgtools.addblur(10,"image.png")
 
 ============== Copy above this line
 
