@@ -1,0 +1,68 @@
+
+================
+The message encoded this run is:  4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz 
+================
+Blur Radius = 5
+================
+Max Size = 10
+================
+
+================
+Error Setting = 1
+================
+
+The reading of image size  1  (where the images were  10.5265273051 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  2  (where the images were  10.5265273051 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  3  (where the images were  10.8954296109 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  4  (where the images were  11.3784651993 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  5  (where the images were  12.1609760349 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  6  (where the images were  12.4197336077 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  7  (where the images were  12.6697631562 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  8  (where the images were  12.9430931991 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  9  (where the images were  13.2663009627 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  10  (where the images were  13.0031159067 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+
+================
+Error Setting = 2
+================
+
+The reading of image size  1  (where the images were  10.95708618 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  2  (where the images were  10.95708618 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  3  (where the images were  10.95708618 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  4  (where the images were  11.2212478567 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  5  (where the images were  12.0879438393 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  6  (where the images were  12.3775093711 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  7  (where the images were  12.3780509427 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  8  (where the images were  12.4222596395 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  9  (where the images were  12.4800396267 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  10  (where the images were  13.2335909038 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+
+================
+Error Setting = 3
+================
+
+The reading of image size  1  (where the images were  10.9236053223 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  2  (where the images were  10.9236053223 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  3  (where the images were  10.9236053223 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  4  (where the images were  11.2936510714 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  5  (where the images were  11.8127562334 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  6  (where the images were  12.0864476403 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  7  (where the images were  12.1297845162 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  8  (where the images were  12.9849763728 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  9  (where the images were  13.0295819698 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  10  (where the images were  13.2298596125 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+
+================
+Error Setting = 4
+================
+
+The reading of image size  1  (where the images were  11.3842227432 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  2  (where the images were  11.3842227432 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  3  (where the images were  11.3842227432 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  4  (where the images were  11.3842227432 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  5  (where the images were  11.5976257565 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  6  (where the images were  12.1295930617 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  7  (where the images were  12.458604346 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  8  (where the images were  12.6622610879 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  9  (where the images were  12.6496967398 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)
+The reading of image size  10  (where the images were  12.8976038984 % different) was a  Success (4tsPmX7xjFi3ui3FnqVmlShhDjPt2ptz)

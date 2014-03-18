@@ -72,8 +72,8 @@ import random, string
 # User Configuration Start #
 ############################
 
-# Set blur radius [Set this around 5-25 for best results]
-blur = 5
+# Set the type of error redundancy [Must be between 1 and 4]
+errorsetting = 4
 
 # Set max image size [To stop massive resource usage, keep this below 15]
 maxsize = 10
@@ -83,7 +83,7 @@ maxsize = 10
 ##########################
 
 # Check blur is positive integer
-assert int(blur) > 1 , "The specified blur was not a valid number"
+assert int(errorsetting) >= 1 and int(errorsetting) <=4, "The specified error redundancy was not valid"
 
 # Check maxsize is positive integer
 assert int(maxsize) > 1 , "The specified maximum size was not a valid number"
@@ -92,41 +92,41 @@ assert int(maxsize) > 1 , "The specified maximum size was not a valid number"
 message = ''.join([random.choice(string.ascii_letters + string.digits) for n in xrange(32)])
 
 # Open file to write output to
-f = open("./data/data_blur_%s_output.txt" % blur, "w")
+f = open("./data/data_blur_%s_output.txt" % errorsetting, "w")
 
 # Print the message - write to file
-print >>f , "\n================\nThe message encoded this run is: ", message, "\n================\nBlur Radius = %s\n================\nMax Size = %s\n================" % (blur,maxsize)
+print >>f , "\n================\nThe message encoded this run is: ", message, "\n================\nError Setting = %s\n================\nMax Size = %s\n================" % (errorsetting,maxsize)
 
 
 # Initialise counter
-i = 1
+blur = 5
 
-# Do a set of tests for all error settings
-while (i <= 4):
+# Do a set of tests for all blur and sizes
+while (blur <= 15):
     
-    # Print image size (run number) - write to file
-    print >>f , "\n================\nError Setting = %s\n================\n" % (i) 
+    # Print blur size (run number) - write to file
+    print >>f , "\n================\nBlur Size = %s\n================\n" % (blur) 
     
     # Initialise counter
-    j = 1
+    i = 1
     
     # Repeat for the sizes 1 -> max size
-    while (j <= maxsize):
+    while (i <= maxsize):
         
         # Run encoding function from encode_decode for each error redundancy
-        qr_ed.encode(message,"code_{0}".format(j),j,i) 
+        qr_ed.encode(message,"code",i,errorsetting) 
 
         # Run addblur function from imgtools
-        qr_imgtools.addblur(blur,"./images/code_{0}.png".format(j))
+        qr_imgtools.addblur(blur,"./images/code.png")
 
         # Run compare function from imgtools - write to file
-        print >>f , "The reading of image size ", j, "was a ", qr_ed.decode("./images/code_{0}_blurred.png".format(j)) 
+        print >>f , "The reading of image size ", i, " (where the images were ",qr_imgtools.compare("./images/code.png","./images/code_blurred.png"), "% different) was a ", qr_ed.decode("./images/code_blurred.png") 
         
         # Increase counter
-        j += 1
+        i += 1
     
     # Increase counter
-    i += 1
+    blur += 1
 
 # Print a success message, if the program failed at any point, the error handling in the code should take care of it.
 print "Complete, wrote output to ", f.name
