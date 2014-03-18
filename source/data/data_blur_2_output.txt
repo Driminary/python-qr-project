@@ -1,0 +1,173 @@
+
+================
+The message encoded this run is:  TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD 
+================
+Error Setting = 2
+================
+Max Size = 10
+================
+
+================
+Blur Size = 5
+================
+
+The reading of image size  1  (where the images were  10.7714748134 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  10.7714748134 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  10.7714748134 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  11.6360429716 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  11.8000522876 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  12.189332876 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  7  (where the images were  12.4446603704 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  8  (where the images were  12.838411819 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  9  (where the images were  13.0707684525 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  10  (where the images were  13.2394013227 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+
+================
+Blur Size = 6
+================
+
+The reading of image size  1  (where the images were  12.3615720649 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  12.3615720649 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  12.3615720649 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  13.3148242759 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  13.4993328492 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  13.9269307723 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  7  (where the images were  14.2210332335 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  8  (where the images were  14.6636201788 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  9  (where the images were  14.9259770987 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  10  (where the images were  15.1133542174 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+
+================
+Blur Size = 7
+================
+
+The reading of image size  1  (where the images were  13.9476303012 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  13.9476303012 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  13.9476303012 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  14.97463228 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  15.1735095618 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  15.6317596426 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  7  (where the images were  15.9541264423 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  8  (where the images were  16.4362247207 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  9  (where the images were  16.7216761254 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  10  (where the images were  16.9233173222 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+
+================
+Blur Size = 8
+================
+
+The reading of image size  1  (where the images were  15.3801572638 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  15.3801572638 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  15.3801572638 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  16.4719156431 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  16.6877869765 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  17.1745808527 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  7  (where the images were  17.5361268751 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  8  (where the images were  18.0594982468 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  9  (where the images were  18.3705023423 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  10  (where the images were  18.5861023321 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+
+================
+Blur Size = 9
+================
+
+The reading of image size  1  (where the images were  16.7349202939 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  16.7349202939 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  16.7349202939 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  17.887576256 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  18.1202943597 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  18.631148786 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  7  (where the images were  19.0288470532 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  8  (where the images were  19.5891200309 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  9  (where the images were  19.9243783297 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  10  (where the images were  20.1531221719 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+
+================
+Blur Size = 10
+================
+
+The reading of image size  1  (where the images were  18.0792592274 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  18.0792592274 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  18.0792592274 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  19.2754709498 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  19.5230442992 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  20.0490432908 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  7  (where the images were  20.4820178837 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  8  (where the images were  21.0757614711 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  9  (where the images were  21.4322430719 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  10  (where the images were  21.6722923773 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+
+================
+Blur Size = 11
+================
+
+The reading of image size  1  (where the images were  19.2985319182 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  19.2985319182 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  19.2985319182 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  20.5380107546 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  20.8047504236 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  21.34242595 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  7  (where the images were  21.8051403402 % different) was a  Fail
+The reading of image size  8  (where the images were  22.4258046216 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  9  (where the images were  22.8025620353 % different) was a  Fail
+The reading of image size  10  (where the images were  23.0554059636 % different) was a  Fail
+
+================
+Blur Size = 12
+================
+
+The reading of image size  1  (where the images were  20.4341110586 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  2  (where the images were  20.4341110586 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  3  (where the images were  20.4341110586 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  4  (where the images were  21.7109027073 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  5  (where the images were  21.9985262648 % different) was a  Success (TY75Cgp4m0xw0Ds8xCnOJSPqe2W2pwXD)
+The reading of image size  6  (where the images were  22.5418722591 % different) was a  Fail
+The reading of image size  7  (where the images were  23.026427659 % different) was a  Fail
+The reading of image size  8  (where the images were  23.6695671066 % different) was a  Fail
+The reading of image size  9  (where the images were  24.0631403112 % different) was a  Fail
+The reading of image size  10  (where the images were  24.3285884673 % different) was a  Fail
+
+================
+Blur Size = 13
+================
+
+The reading of image size  1  (where the images were  21.4966527736 % different) was a  Fail
+The reading of image size  2  (where the images were  21.4966527736 % different) was a  Fail
+The reading of image size  3  (where the images were  21.4966527736 % different) was a  Fail
+The reading of image size  4  (where the images were  22.8055359205 % different) was a  Fail
+The reading of image size  5  (where the images were  23.1156136529 % different) was a  Fail
+The reading of image size  6  (where the images were  23.6596042499 % different) was a  Fail
+The reading of image size  7  (where the images were  24.1616149771 % different) was a  Fail
+The reading of image size  8  (where the images were  24.8199602894 % different) was a  Fail
+The reading of image size  9  (where the images were  25.2290876899 % different) was a  Fail
+The reading of image size  10  (where the images were  25.5079698341 % different) was a  Fail
+
+================
+Blur Size = 14
+================
+
+The reading of image size  1  (where the images were  22.3788424354 % different) was a  Fail
+The reading of image size  2  (where the images were  22.3788424354 % different) was a  Fail
+The reading of image size  3  (where the images were  22.3788424354 % different) was a  Fail
+The reading of image size  4  (where the images were  23.7262460487 % different) was a  Fail
+The reading of image size  5  (where the images were  24.0693023481 % different) was a  Fail
+The reading of image size  6  (where the images were  24.615374313 % different) was a  Fail
+The reading of image size  7  (where the images were  25.1333109962 % different) was a  Fail
+The reading of image size  8  (where the images were  25.8076970893 % different) was a  Fail
+The reading of image size  9  (where the images were  26.2348672874 % different) was a  Fail
+The reading of image size  10  (where the images were  26.5326464787 % different) was a  Fail
+
+================
+Blur Size = 15
+================
+
+The reading of image size  1  (where the images were  23.4020195076 % different) was a  Fail
+The reading of image size  2  (where the images were  23.4020195076 % different) was a  Fail
+The reading of image size  3  (where the images were  23.4020195076 % different) was a  Fail
+The reading of image size  4  (where the images were  24.7647852002 % different) was a  Fail
+The reading of image size  5  (where the images were  25.1290534979 % different) was a  Fail
+The reading of image size  6  (where the images were  25.6603278046 % different) was a  Fail
+The reading of image size  7  (where the images were  26.181141848 % different) was a  Fail
+The reading of image size  8  (where the images were  26.8570383647 % different) was a  Fail
+The reading of image size  9  (where the images were  27.2925884355 % different) was a  Fail
+The reading of image size  10  (where the images were  27.6012790347 % different) was a  Fail
