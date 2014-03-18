@@ -9,7 +9,7 @@
 #    29/01/2014   #
 ###################
 #  Last updated:  #
-#    06/03/2014   #
+#    11/03/2014   #
 ###################
 
 ##########################
@@ -17,6 +17,51 @@
 # ---------------------- #
 #      Main Program      #
 ##########################
+
+"""
+===========
+Version 1.0
+===========
+ Released:
+11/03/2014
+===========
+
+=========================================================================================================
+Requires: random, string [Included in python installation], mod_imgtools and mod_encode_decode [Supplied]
+=========================================================================================================
+
+A program used to encode, degrade and then test qr codes to see if each error setting can read the images
+produced using the specified blur radius and image size.
+
+In this directory are the two modules required for the program to run, mod_imgtools and mod_encode_decode.
+Also in the directory are two folders named 'images' and 'data' used to keep the structure of the files
+in an ordered manner. 
+
+- images/calibration_purewhite.png  = A 100 x 100 px pure white image
+- images/calibration_25percent.png  = The file above with a 50 x 50 px black square in the top left
+                                      covering 25% of the image.
+- mod_encode_decode.py              = Thomas Anderson's encoding and decoding module.
+- mod_imgtools.py                   = Thomas Anderson's image processing module.
+
+For usage of each function, please refer to the DOCSTRING. There are a few user configurable variables
+which can be altered and set to different values in order to produce different output files.
+
+Changing the 'blur' variable will alter the amount that each set of pixels is gaussian blurred by to
+produce the image to be tested.
+Changing the 'maxsize' variable will alter the maximum image size that will be created for testing.
+
+Each image is degraded and tested to see if it can be decoded and then the program will produce a text 
+file in the data folder indicating the results of the test.
+
+This program may be ran standalone, but the required modules must be included in a file.
+
+Remeber that due to the licensing this file is released under (MIT License), all usage must include
+credit to the original owner (myself) and so you must include the first line if you import or it will
+be an infringement of copyright.
+
+Source files can be found on https://github.com/Driminary/python-qr-project
+
+"""
 
 # Import modules
 import mod_encode_decode as qr_ed   # My encoding-decoding module
